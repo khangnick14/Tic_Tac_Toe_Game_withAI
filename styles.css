@@ -1,0 +1,94 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Varela Round", sans-serif;
+}
+
+.background {
+  background-color: #073b4c;
+  height: 100vh;
+  padding-top: 1px;
+}
+
+.title {
+  color: whitesmoke;
+  text-align: center;
+  font-size: 35px;
+  margin-top: 2%;
+}
+
+.display {
+  color: #ffd166;
+  text-align: center;
+  font-size: 25px;
+  margin-top: 1em;
+  margin-bottom: 2em;
+}
+
+.hide {
+  display: none;
+}
+
+td {
+  border: 2px solid white;
+  height: 150px;
+  width: 150px;
+  text-align: center;
+  vertical-align: middle;
+  cursor: pointer;
+}
+
+table {
+  border-collapse: collapse;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+table tr:first-child td {
+  border-top: 0;
+}
+
+table tr:last-child td {
+  border-bottom: 0;
+}
+
+table tr td:first-child {
+  border-left: 0;
+}
+
+table tr td:last-child {
+  border-right: 0;
+}
+
+.playerX {
+  color: #06d6a0;
+}
+
+.playerO {
+  color: #ef476f;
+}
+
+.controls {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2em;
+}
+
+#reset {
+  background-color: #e36414;
+  color: whitesmoke;
+  font-size: 20px;
+  padding: 10px 30px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.5s, color 0.5s;
+}
+
+#reset:hover {
+  background-color: whitesmoke;
+  color: #e36414;
+}
